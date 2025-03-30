@@ -3,6 +3,8 @@ import React from 'react';
 import {CheckIcon} from '../icons/CheckIcon';
 import {Box} from '../styles/box';
 import {Flex} from '../styles/flex';
+import Image from 'next/image';
+
 
 export const Hero = () => {
    return (
@@ -130,7 +132,10 @@ export const Hero = () => {
                   },
                }}
             >
-               <img src="mock.png" />
+               <img
+                  src="/good_octopus.png"
+                  alt=""
+               />
             </Box>
          </Flex>
          <Divider

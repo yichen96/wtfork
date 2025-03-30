@@ -11,11 +11,7 @@ export const Nav = () => {
    const {setTheme} = useNextTheme();
    const {isDark, type} = useTheme();
    const collapseItems = [
-      'Features',
-      'Customers',
-      'Pricing',
-      'Company',
-      'Legal',
+      'Features'
    ];
    return (
       <Navbar
@@ -32,7 +28,7 @@ export const Nav = () => {
             <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
             <AcmeLogo />
             <Text b color="inherit" hideIn="xs">
-               ACME
+               WTFork
             </Text>
             <Navbar.Content
                hideIn="sm"
@@ -85,7 +81,7 @@ export const Nav = () => {
                      <Dropdown.Item
                         key="usage_metrics"
                         showFullDescription
-                        description="Real-time metrics to debug issues. Slow query added? We’ll show you exactly where."
+                        description="Real-time metrics to debug issues. Slow query added? We'll show you exactly where."
                         icon={icons.activity}
                      >
                         Usage Metrics
@@ -116,11 +112,6 @@ export const Nav = () => {
                      </Dropdown.Item>
                   </Dropdown.Menu>
                </Dropdown>
-               <Navbar.Link isActive href="#">
-                  Customers
-               </Navbar.Link>
-               <Navbar.Link href="#">Pricing</Navbar.Link>
-               <Navbar.Link href="#">Company</Navbar.Link>
             </Navbar.Content>
          </Navbar.Brand>
 
@@ -160,13 +151,6 @@ export const Nav = () => {
             </Navbar.CollapseItem>
          </Navbar.Collapse>
          <Navbar.Content>
-            <ModalLogin />
-
-            <Navbar.Item>
-               <Button auto flat href="#">
-                  Start free trial
-               </Button>
-            </Navbar.Item>
             <Navbar.Item hideIn={'xs'}>
                <Link
                   color="inherit"
@@ -174,7 +158,7 @@ export const Nav = () => {
                      minWidth: '100%',
                   }}
                   target="_blank"
-                  href="https://github.com/Siumauricio/landing-template-nextui"
+                  href="https://github.com/yichen96/wtfork"
                >
                   <GithubIcon />
                </Link>

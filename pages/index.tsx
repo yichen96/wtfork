@@ -5,8 +5,6 @@ import {Hero} from '../components/hero';
 import {Trusted} from '../components/trusted';
 import {Box} from '../components/styles/box';
 import {Features1} from '../components/features1';
-import {Features2} from '../components/features2';
-import {Features3} from '../components/features3';
 import {Testimonials} from '../components/tesminonials';
 import {Statistics} from '../components/statistics';
 import {Plans} from '../components/plans';
@@ -22,8 +20,6 @@ const Home: NextPage = () => {
             <Hero />
             <Trusted />
             <Features1 />
-            <Features2 />
-            <Features3 />
             <Testimonials />
             <Statistics />
             <Plans />
