@@ -1,6 +1,6 @@
 import Image from 'next/image';
 
-export const AcmeLogo = () => (
+export const WTFLogo = () => (
   <Image
     src="/wtficon_up.png"
     alt="WTF Logo"

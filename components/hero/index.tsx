@@ -45,15 +45,7 @@ export const Hero = () => {
                         display: 'inline',
                      }}
                   >
-                     The modern landing page{' '}
-                  </Text>
-                  <Text
-                     h1
-                     css={{
-                        display: 'inline',
-                     }}
-                  >
-                     for{' '}
+                     Is that a {' '}
                   </Text>
                   <Text
                      h1
@@ -62,7 +54,32 @@ export const Hero = () => {
                      }}
                      color="primary"
                   >
-                     React developers
+                     feature{' '}
+                  </Text>
+                  <Text
+                     h1
+                     css={{
+                        display: 'inline',
+                     }}
+                  >
+                     or a {' '}
+                  </Text>
+                  <Text
+                     h1
+                     css={{
+                        display: 'inline',
+                     }}
+                     color="secondary"
+                  >
+                     bug{' '}
+                  </Text>
+                  <Text
+                     h1
+                     css={{
+                        display: 'inline',
+                     }}
+                  >
+                     ? Wonder no more!
                   </Text>
                </Box>
 
@@ -74,8 +91,7 @@ export const Hero = () => {
                   size={'$lg'}
                   span
                >
-                  The easiest way to build React Landing page in seconds. Save
-                  time and focus on your project.
+                  The easiest way to version control your product road map and vizualize your product entropy
                </Text>
 
                <Flex
@@ -85,8 +101,8 @@ export const Hero = () => {
                   }}
                   wrap={'wrap'}
                >
-                  <Input placeholder="Enter your email address" size="lg" />
-                  <Button>Start Free Trial</Button>
+                  <Input placeholder="Enter email address" size="lg" />
+                  <Button onClick={() => alert('thanks for your interest, this button currently does nothing')}>Request a demo</Button>
                </Flex>
                <Flex
                   wrap={'wrap'}
@@ -112,14 +128,6 @@ export const Hero = () => {
                         alignItems: 'center',
                      }}
                   >
-                     <CheckIcon /> 14-day free trial.
-                  </Flex>
-                  <Flex
-                     css={{
-                        color: '$accents7',
-                        alignItems: 'center',
-                     }}
-                  >
                      <CheckIcon /> Cancel anytime.
                   </Flex>
                </Flex>
@@ -127,7 +135,7 @@ export const Hero = () => {
             <Box
                css={{
                   '& img': {
-                     width: '775px',
+                     width: '685px',
                      objectFit: 'contain',
                   },
                }}

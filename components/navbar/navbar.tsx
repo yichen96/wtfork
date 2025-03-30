@@ -2,7 +2,7 @@ import {Button, Dropdown, Link, Navbar, Switch, Text} from '@nextui-org/react';
 import React from 'react';
 import {ModalLogin} from '../modal';
 import {icons} from './icons';
-import {AcmeLogo} from './logo';
+import {WTFLogo} from './logo';
 import {useTheme as useNextTheme} from 'next-themes';
 import {useTheme} from '@nextui-org/react';
 import {GithubIcon} from '../icons/GithubIcon';
@@ -26,7 +26,7 @@ export const Nav = () => {
       >
          <Navbar.Brand>
             <Navbar.Toggle aria-label="toggle navigation" showIn="xs" />
-            <AcmeLogo />
+            <WTFLogo />
             <Text b color="inherit" hideIn="xs">
                WTFork
             </Text>
