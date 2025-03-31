@@ -45,7 +45,7 @@ export const Hero = () => {
                         display: 'inline',
                      }}
                   >
-                     Is that a {' '}
+                     WTF? Is that a {' '}
                   </Text>
                   <Text
                      h1
@@ -71,7 +71,7 @@ export const Hero = () => {
                      }}
                      color="secondary"
                   >
-                     bug{' '}
+                     bug
                   </Text>
                   <Text
                      h1
@@ -91,7 +91,7 @@ export const Hero = () => {
                   size={'$lg'}
                   span
                >
-                  The easiest way to version control your product road map and vizualize your product entropy
+                  The easiest way to version control your product road map and vizualize your product&apos;s entropy
                </Text>
 
                <Flex
@@ -128,7 +128,7 @@ export const Hero = () => {
                         alignItems: 'center',
                      }}
                   >
-                     <CheckIcon /> Cancel anytime.
+                     <CheckIcon /> Cancel anytime, we don&apos;t have a retention team
                   </Flex>
                </Flex>
             </Box>
