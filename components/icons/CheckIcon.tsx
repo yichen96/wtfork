@@ -1,14 +1,18 @@
 import React from 'react';
 import {Svg} from '../styles/svg';
 
-export const CheckIcon = () => {
+interface CheckIconProps {
+   size?: number;
+}
+
+export const CheckIcon = ({ size = 24 }: CheckIconProps) => {
    return (
       <Svg
          xmlns="http://www.w3.org/2000/svg"
-         width="24"
-         height="24"
-         fill="green"
+         width={size}
+         height={size}
          viewBox="0 0 24 24"
+         style={{ minWidth: size, minHeight: size }}
       >
          <Svg.Path
             css={{
