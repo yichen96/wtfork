@@ -6,10 +6,8 @@ import {Trusted} from '../components/trusted';
 import {Box} from '../components/styles/box';
 import {Features1} from '../components/features1';
 import {Testimonials} from '../components/tesminonials';
-import {Statistics} from '../components/statistics';
 import {Plans} from '../components/plans';
 import {Faq} from '../components/faq';
-import {Trial} from '../components/trial';
 import {Footer} from '../components/footer';
 
 const Home: NextPage = () => {
