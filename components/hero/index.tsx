@@ -132,19 +132,13 @@ export const Hero = () => {
                   </Flex>
                </Flex>
             </Box>
-            <Box
-               css={{
-                  '& img': {
-                     width: '685px',
-                     objectFit: 'contain',
-                  },
-               }}
-            >
-               <img
-                  src="/good_octopus.png"
-                  alt=""
-               />
-            </Box>
+            <Image
+               src="/good_octopus.png"
+               alt=""
+               width={685}
+               height={685}
+               priority
+            />
          </Flex>
          <Divider
             css={{position: 'absolute', inset: '0p', left: '0', mt: '$10'}}

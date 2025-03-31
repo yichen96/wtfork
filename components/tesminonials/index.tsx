@@ -43,9 +43,7 @@ export const Testimonials = () => {
                                  color: '$accents8',
                               }}
                            >
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl,
+                              WTFork told us our app had reached &quot;critical spaghetti mass&quot;. I laughed. Then I cried. Then I rage-quit.
                            </Text>
                            <Text
                               span
@@ -56,7 +54,7 @@ export const Testimonials = () => {
                                  color: '$accents9',
                               }}
                            >
-                              Jennifer Ford{' '}
+                              Alex P.{' '}
                            </Text>
                            <Text
                               span
@@ -65,7 +63,7 @@ export const Testimonials = () => {
                                  color: '$accents8',
                               }}
                            >
-                              - CEO at Company
+                              - Former CTO (allegedly)
                            </Text>
                         </Flex>
                      </Flex>
@@ -89,9 +87,7 @@ export const Testimonials = () => {
                                  color: '$accents8',
                               }}
                            >
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl,
+                              I asked WTFork why our churn rate spiked. It just showed me a mirror.
                            </Text>
                            <Text
                               span
@@ -102,7 +98,7 @@ export const Testimonials = () => {
                                  color: '$accents9',
                               }}
                            >
-                              Jennifer Ford{' '}
+                              Jordan M.{' '}
                            </Text>
                            <Text
                               span
@@ -111,7 +107,7 @@ export const Testimonials = () => {
                                  color: '$accents8',
                               }}
                            >
-                              - CEO at Company
+                              - Product Manager
                            </Text>
                         </Flex>
                      </Flex>
@@ -135,9 +131,7 @@ export const Testimonials = () => {
                                  color: '$accents8',
                               }}
                            >
-                              Lorem ipsum dolor sit amet, consectetur adipiscing
-                              elit. Sed condimentum, nisl ut aliquam lacinia,
-                              nisl nisl aliquet nisl,
+                              WTFork said our architecture was haunted. Honestly? Checks out.
                            </Text>
                            <Text
                               span
@@ -148,7 +142,7 @@ export const Testimonials = () => {
                                  color: '$accents9',
                               }}
                            >
-                              Jennifer Ford{' '}
+                              Casey W.{' '}
                            </Text>
                            <Text
                               span
@@ -157,7 +151,7 @@ export const Testimonials = () => {
                                  color: '$accents8',
                               }}
                            >
-                              - CEO at Company
+                              - Lead Backend Exorcist
                            </Text>
                         </Flex>
                      </Flex>
@@ -175,16 +169,12 @@ export const Testimonials = () => {
                }}
             >
                <Text span css={{color: '$blue600'}}>
-                  Awesome Feature
+                  What People Say (Before They Vanished)
                </Text>
                <Text h3>Testimonials</Text>
                <Text span css={{color: '$accents8', maxW: '600px', pb: '$8'}}>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed
-                  condimentum, nisl ut aliquam lacinia, nisl nisl aliquet nisl,
-                  nec tincidunt nisl lorem eu nunc. Sed euismod, nisl ut aliquam
-                  lacinia,
+                  Here at WTFork, we pride ourselves on creating unforgettable software. Mostly because it breaks people. Below are totally real, definitely not AI-generated testimonials from users who stared into the abyss of product entropy — and lived to tweet about it. Some found clarity. Others found new careers. All of them found WTFork.
                </Text>
-               <Button>Read case studies</Button>
             </Flex>
          </Flex>
 
