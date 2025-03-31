@@ -21,10 +21,8 @@ const Home: NextPage = () => {
             <Trusted />
             <Features1 />
             <Testimonials />
-            <Statistics />
             <Plans />
             <Faq />
-            <Trial />
             <Footer />
          </Box>
       </Layout>
